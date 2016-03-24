@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		534196C41C07E08200AABA82 /* 16757045_1283491640Hsq8.png in Resources */ = {isa = PBXBuildFile; fileRef = 534196C31C07E08200AABA82 /* 16757045_1283491640Hsq8.png */; };
+		5382F6D81C0740CF00CE7FBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5382F6D71C0740CF00CE7FBA /* main.m */; };
+		5382F6DB1C0740CF00CE7FBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5382F6DA1C0740CF00CE7FBA /* AppDelegate.m */; };
+		5382F6DE1C0740CF00CE7FBA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5382F6DD1C0740CF00CE7FBA /* ViewController.m */; };
+		5382F6E11C0740CF00CE7FBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5382F6DF1C0740CF00CE7FBA /* Main.storyboard */; };
+		5382F6E31C0740CF00CE7FBA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5382F6E21C0740CF00CE7FBA /* Images.xcassets */; };
+		5382F6E61C0740CF00CE7FBA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5382F6E41C0740CF00CE7FBA /* LaunchScreen.xib */; };
+		5382F6F21C0740CF00CE7FBA /* Draw______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5382F6F11C0740CF00CE7FBA /* Draw______Tests.m */; };
+		5382F6FD1C07424900CE7FBA /* DoodleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5382F6FC1C07424900CE7FBA /* DoodleView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5382F6EC1C0740CF00CE7FBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5382F6CA1C0740CF00CE7FBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5382F6D11C0740CF00CE7FBA;
+			remoteInfo = "Draw - 马朋飞";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		534196C31C07E08200AABA82 /* 16757045_1283491640Hsq8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 16757045_1283491640Hsq8.png; sourceTree = "<group>"; };
+		5382F6D21C0740CF00CE7FBA /* Draw - 马朋飞.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Draw - 马朋飞.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5382F6D61C0740CF00CE7FBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5382F6D71C0740CF00CE7FBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5382F6D91C0740CF00CE7FBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5382F6DA1C0740CF00CE7FBA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5382F6DC1C0740CF00CE7FBA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5382F6DD1C0740CF00CE7FBA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5382F6E01C0740CF00CE7FBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5382F6E21C0740CF00CE7FBA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5382F6E51C0740CF00CE7FBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5382F6EB1C0740CF00CE7FBA /* Draw - 马朋飞Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Draw - 马朋飞Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5382F6F01C0740CF00CE7FBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5382F6F11C0740CF00CE7FBA /* Draw______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Draw______Tests.m"; sourceTree = "<group>"; };
+		5382F6FB1C07424900CE7FBA /* DoodleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoodleView.h; sourceTree = "<group>"; };
+		5382F6FC1C07424900CE7FBA /* DoodleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoodleView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5382F6CF1C0740CF00CE7FBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5382F6E81C0740CF00CE7FBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5382F6C91C0740CF00CE7FBA = {
+			isa = PBXGroup;
+			children = (
+				5382F6D41C0740CF00CE7FBA /* Draw - 马朋飞 */,
+				5382F6EE1C0740CF00CE7FBA /* Draw - 马朋飞Tests */,
+				5382F6D31C0740CF00CE7FBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5382F6D31C0740CF00CE7FBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5382F6D21C0740CF00CE7FBA /* Draw - 马朋飞.app */,
+				5382F6EB1C0740CF00CE7FBA /* Draw - 马朋飞Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5382F6D41C0740CF00CE7FBA /* Draw - 马朋飞 */ = {
+			isa = PBXGroup;
+			children = (
+				5382F6D91C0740CF00CE7FBA /* AppDelegate.h */,
+				5382F6DA1C0740CF00CE7FBA /* AppDelegate.m */,
+				5382F6DC1C0740CF00CE7FBA /* ViewController.h */,
+				5382F6DD1C0740CF00CE7FBA /* ViewController.m */,
+				5382F6FB1C07424900CE7FBA /* DoodleView.h */,
+				5382F6FC1C07424900CE7FBA /* DoodleView.m */,
+				534196C31C07E08200AABA82 /* 16757045_1283491640Hsq8.png */,
+				5382F6DF1C0740CF00CE7FBA /* Main.storyboard */,
+				5382F6E21C0740CF00CE7FBA /* Images.xcassets */,
+				5382F6E41C0740CF00CE7FBA /* LaunchScreen.xib */,
+				5382F6D51C0740CF00CE7FBA /* Supporting Files */,
+			);
+			path = "Draw - 马朋飞";
+			sourceTree = "<group>";
+		};
+		5382F6D51C0740CF00CE7FBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5382F6D61C0740CF00CE7FBA /* Info.plist */,
+				5382F6D71C0740CF00CE7FBA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5382F6EE1C0740CF00CE7FBA /* Draw - 马朋飞Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5382F6F11C0740CF00CE7FBA /* Draw______Tests.m */,
+				5382F6EF1C0740CF00CE7FBA /* Supporting Files */,
+			);
+			path = "Draw - 马朋飞Tests";
+			sourceTree = "<group>";
+		};
+		5382F6EF1C0740CF00CE7FBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5382F6F01C0740CF00CE7FBA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5382F6D11C0740CF00CE7FBA /* Draw - 马朋飞 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5382F6F51C0740CF00CE7FBA /* Build configuration list for PBXNativeTarget "Draw - 马朋飞" */;
+			buildPhases = (
+				5382F6CE1C0740CF00CE7FBA /* Sources */,
+				5382F6CF1C0740CF00CE7FBA /* Frameworks */,
+				5382F6D01C0740CF00CE7FBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Draw - 马朋飞";
+			productName = "Draw - 马朋飞";
+			productReference = 5382F6D21C0740CF00CE7FBA /* Draw - 马朋飞.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5382F6EA1C0740CF00CE7FBA /* Draw - 马朋飞Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5382F6F81C0740CF00CE7FBA /* Build configuration list for PBXNativeTarget "Draw - 马朋飞Tests" */;
+			buildPhases = (
+				5382F6E71C0740CF00CE7FBA /* Sources */,
+				5382F6E81C0740CF00CE7FBA /* Frameworks */,
+				5382F6E91C0740CF00CE7FBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5382F6ED1C0740CF00CE7FBA /* PBXTargetDependency */,
+			);
+			name = "Draw - 马朋飞Tests";
+			productName = "Draw - 马朋飞Tests";
+			productReference = 5382F6EB1C0740CF00CE7FBA /* Draw - 马朋飞Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5382F6CA1C0740CF00CE7FBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = laouhn;
+				TargetAttributes = {
+					5382F6D11C0740CF00CE7FBA = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					5382F6EA1C0740CF00CE7FBA = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 5382F6D11C0740CF00CE7FBA;
+					};
+				};
+			};
+			buildConfigurationList = 5382F6CD1C0740CF00CE7FBA /* Build configuration list for PBXProject "Draw - 马朋飞" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5382F6C91C0740CF00CE7FBA;
+			productRefGroup = 5382F6D31C0740CF00CE7FBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5382F6D11C0740CF00CE7FBA /* Draw - 马朋飞 */,
+				5382F6EA1C0740CF00CE7FBA /* Draw - 马朋飞Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5382F6D01C0740CF00CE7FBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5382F6E11C0740CF00CE7FBA /* Main.storyboard in Resources */,
+				5382F6E61C0740CF00CE7FBA /* LaunchScreen.xib in Resources */,
+				534196C41C07E08200AABA82 /* 16757045_1283491640Hsq8.png in Resources */,
+				5382F6E31C0740CF00CE7FBA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5382F6E91C0740CF00CE7FBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5382F6CE1C0740CF00CE7FBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5382F6DE1C0740CF00CE7FBA /* ViewController.m in Sources */,
+				5382F6FD1C07424900CE7FBA /* DoodleView.m in Sources */,
+				5382F6DB1C0740CF00CE7FBA /* AppDelegate.m in Sources */,
+				5382F6D81C0740CF00CE7FBA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5382F6E71C0740CF00CE7FBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5382F6F21C0740CF00CE7FBA /* Draw______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5382F6ED1C0740CF00CE7FBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5382F6D11C0740CF00CE7FBA /* Draw - 马朋飞 */;
+			targetProxy = 5382F6EC1C0740CF00CE7FBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5382F6DF1C0740CF00CE7FBA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5382F6E01C0740CF00CE7FBA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5382F6E41C0740CF00CE7FBA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5382F6E51C0740CF00CE7FBA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5382F6F31C0740CF00CE7FBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5382F6F41C0740CF00CE7FBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5382F6F61C0740CF00CE7FBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Draw - 马朋飞/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5382F6F71C0740CF00CE7FBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Draw - 马朋飞/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5382F6F91C0740CF00CE7FBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Draw - 马朋飞Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Draw - 马朋飞.app/Draw - 马朋飞";
+			};
+			name = Debug;
+		};
+		5382F6FA1C0740CF00CE7FBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Draw - 马朋飞Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Draw - 马朋飞.app/Draw - 马朋飞";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5382F6CD1C0740CF00CE7FBA /* Build configuration list for PBXProject "Draw - 马朋飞" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5382F6F31C0740CF00CE7FBA /* Debug */,
+				5382F6F41C0740CF00CE7FBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5382F6F51C0740CF00CE7FBA /* Build configuration list for PBXNativeTarget "Draw - 马朋飞" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5382F6F61C0740CF00CE7FBA /* Debug */,
+				5382F6F71C0740CF00CE7FBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5382F6F81C0740CF00CE7FBA /* Build configuration list for PBXNativeTarget "Draw - 马朋飞Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5382F6F91C0740CF00CE7FBA /* Debug */,
+				5382F6FA1C0740CF00CE7FBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5382F6CA1C0740CF00CE7FBA /* Project object */;
+}
